@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.costum-logo-img{
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.costum-logo-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.costum-logo-text{
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  width: 180px;
+  line-height: -10px !important;
+  color: #0350D0;
+}
+.costum-logo-text.activeText{
+  width: 230px;
+}
+.react-pagination-me{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.react-pagination-me li{
+  padding: 0px 10px;
+  border-radius: 5px;
+  border: 1px solid #0350D0;
+  margin: 0 2px;
+}
+.prevPaginateBtn{
+  color: #0350D0;
+  border-radius: 5px;
+}
+.not-active-paginate{
+  color: #0350D0;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+.active-paginate{
+  color: #fff !important;
+  font-weight: 600;
+  background: #0350D0;
+  border-radius: 5px;
+  padding: 3px 15px;
+}
